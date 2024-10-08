@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/contacto.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Instituto Paco De Lucia</title>
+</head>
+<body>
+    <header>
+        <div class="contenidoDelHeader">
+        <h1> Instituto de Musica <br> Paco De Lucia</h1>
+        <img id="ImagenPresentacion" src="https://drive.google.com/thumbnail?id=1U2aSEWuKGJLaQ0gdQ70LnUQBhpWGMd7p&sz=s4000"
+        alt=" logo de presentacion" title="logo de portada" height="400" width="1550"></img>
+        </div>
+        <nav class="menu">
+            <ul class="MenuDeCursos">
+                <li><a href="index.html#PaginaPrincipal"> Inicio</a></li>
+                <li><a href="cursoDeCanto.html">Curso De Canto</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+<div class="caja">
+    <h1>Contactate con nosotros</h1>
+    <form action="#">
+        <table>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </td>
+                <td>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion">
+                </td>
+                <td>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </td>
+            </tr>
+        </table>
+
+        <h2>Curso de Interes:</h2>
+        <label>
+            <input type="radio" id="canto" name="curso" value="canto">
+            Curso de Canto
+        </label>
+        <label>
+            <input type="radio" id="guitarra" name="curso" value="guitarra">
+            Curso de Guitarra
+        </label>
+        <label>
+            <input type="radio" id="piano" name="curso" value="piano">
+            Curso de Piano
+        </label>
+
+        <h2>¿En cual sede te gustaría estudiar?</h2>
+        <label>
+            <input type="checkbox" id="sede_central" name="sede" value="sede_central">
+            Sede Central
+        </label>
+        <label>
+            <input type="checkbox" id="sede_chivilcoy" name="sede" value="sede_chivilcoy">
+            Sede Chivilcoy
+        </label>
+        <label>
+            <input type="checkbox" id="sede_hurlingham" name="sede" value="sede_hurlingham">
+            Sede Hurlingham
+        </label>
+
+        <h2>Musica de Interes:</h2>
+        <input type="text" list="generos" id="genero" name="genero">
+        <datalist id="generos">
+            <option value="Rock">
+            <option value="Rock Nacional">
+            <option value="Clásico">
+            <option value="Pop">
+            <option value="Ópera">
+            <option value="Trap">
+            <option value="Cumbia">
+        </datalist>
+
+        <h2>¿Que conocimientos tienes de musica y qué te gustaria aprender?</h2>
+        <textarea id="consulta" name="consulta" rows="5" cols="30"></textarea>
+
+        <div class="botondeenviar">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</div>
+</main>
+
+<aside class="MenuDeRedes">
+    <section id="redes">
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+            <img src="imagenes\logo facebook.png" alt="facebook" width="60" height="60">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="imagenes/logo instagram.png" alt="instagram" width="60" height="60">
+        </a>
+        <a href="https://www.tiktok.com/es/" target="_blank">
+            <img src="imagenes/logotiktok.png" alt="tiktok" width="60" height="60">
+        </a>
+    </section>
+</aside>
+
+<footer>
+    <hr>
+    <P>&copy;Creado por Sanchez Rivarola Jose Alberto. Octubre 2024</P>
+    <p>DNI:32.272.470</p>
+</footer>
+
+
+</body>
+
+</html>

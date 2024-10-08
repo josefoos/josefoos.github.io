@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f2eb;
+    flex-direction: column;
+    display: flex;
+    min-height: 100%;
+}
+
+header {
+    background-color: aquamarine;
+    color: #4B3D2D;
+    padding: 20px 0;
+}
+
+.contenidoDelHeader {
+    text-align: center;
+    position: relative;
+    width: 1500px; 
+    margin: 0 auto;
+}
+
+.contenidoDelHeader h1 {
+    font-size: 36px; 
+    margin-bottom: 20px;
+    }
+
+.contenidoDelHeader img {
+    width: 100%; 
+    height: 400px; 
+    display: inline-flex;
+    margin: 0px ;
+}
+
+nav.menu {
+    background-color: aquamarine;
+    width: 1000px; 
+    margin: 0 auto;
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav.menu ul li {
+    margin: 0 15px;
+}
+
+nav.menu ul li a {
+    color: #4B3D2D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    width: 1200px; 
+    margin: 0 auto;
+    margin-left: 40px;
+    padding-left: 40px;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+.cursoDeCanto {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.textoDelCurso {
+    width: 800px;
+    margin-left: 0;
+}
+
+.textoDelCanto h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.textoDelCanto p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.textoDelCanto ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.imagenDeCurso {
+    width: 300px;
+}
+
+.imagenDeCurso img {
+    width: 280px;
+    height: 250px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#imagenesDeAlumnos {
+    margin-bottom: 5cm; 
+}
+
+.imagenesDeClases {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.estudiantes {
+    text-align: center;
+    width: 500px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    font-weight: bold; 
+    text-transform: uppercase
+}
+
+.estudiantes h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.estudiantes img {
+    width: 280px;
+    height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+.mejoresEstudiantes {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.estudiantesDestacados {
+    width: 500px; 
+}
+
+.estudiantesDestacados h3 {
+    margin-bottom: 10px;
+}
+
+.estudiantesDestacados ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.estudiantesDestacados li {
+    margin-bottom: 5px;
+}
+.detallesdecurso {
+    width: 300px; 
+}
+
+.detallesdecurso h3 {
+    margin-bottom: 10px;
+}
+
+.detallesdecurso table {
+    width: 10cm; 
+    height: 5cm; 
+    border-collapse: collapse;
+}
+.margensuperiordetabla {
+    color: aquamarine;
+}
+
+.detallesdecurso th, .detallesdecurso td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.detallesdecurso th {
+    background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: aquamarine;
+    color: #4B3D2D;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 16px;
+}
